@@ -306,115 +306,23 @@
             },
             {
               "name": "Shape 1",
-              "ioValue": {
-                "geometry": "move-circle-1--4--4-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 2",
-              "ioValue": {
-                "geometry": "move-circle-1--4-4-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 3",
-              "ioValue": {
-                "geometry": "move-circle-1-4--4-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 4",
-              "ioValue": {
-                "geometry": "move-circle-1-4-4-0",
-                "dimension": "2D",
-                "tags": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "bom": []
-              }
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
               "name": "Shape 5",
-              "ioValue": ""
+              "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
         }
@@ -478,12 +386,12 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-118",
-          "ap2ID": "id-127"
+          "ap2ID": "id-126"
         },
         {
           "ap2Name": "geometry",
           "ap1ID": "id-118",
-          "ap2ID": "id-126"
+          "ap2ID": "id-127"
         },
         {
           "ap2Name": "diameter",
@@ -543,12 +451,12 @@
         {
           "ap2Name": "xDist",
           "ap1ID": "id-128",
-          "ap2ID": "id-127"
+          "ap2ID": "id-126"
         },
         {
           "ap2Name": "xDist",
           "ap1ID": "id-128",
-          "ap2ID": "id-126"
+          "ap2ID": "id-127"
         },
         {
           "ap2Name": "number or geometry",
@@ -618,8 +526,7 @@
         },
         {
           "name": "yDist",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         },
         {
           "name": "zDist",
@@ -638,6 +545,42 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.8,
+      "y": 0.2,
+      "uniqueID": "id-292",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "testBom",
+          "currentEquation": "testBom"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 0.03
+        },
+        {
+          "name": "Source Link",
+          "ioValue": ""
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "testBom",
+        "numberNeeded": 1,
+        "costUSD": 0.03,
+        "source": ""
+      }
     },
     {
       "atomType": "Rectangle",
@@ -815,13 +758,28 @@
   "allConnectors": [
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-31",
-      "ap2ID": "id-35"
+      "ap1ID": "id-130",
+      "ap2ID": "id-186"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-186",
+      "ap2ID": "id-191"
+    },
+    {
+      "ap2Name": "Shape4",
+      "ap1ID": "id-191",
+      "ap2ID": "id-52"
     },
     {
       "ap2Name": "Shape 1",
-      "ap1ID": "id-35",
+      "ap1ID": "id-292",
       "ap2ID": "id-52"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-31",
+      "ap2ID": "id-35"
     },
     {
       "ap2Name": "geometry",
@@ -844,6 +802,11 @@
       "ap2ID": "id-68"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-62",
+      "ap2ID": "id-292"
+    },
+    {
       "ap2Name": "Shape2",
       "ap1ID": "id-62",
       "ap2ID": "id-52"
@@ -856,21 +819,6 @@
     {
       "ap2Name": "Shape3",
       "ap1ID": "id-72",
-      "ap2ID": "id-52"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-130",
-      "ap2ID": "id-186"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-186",
-      "ap2ID": "id-191"
-    },
-    {
-      "ap2Name": "Shape4",
-      "ap1ID": "id-191",
       "ap2ID": "id-52"
     }
   ],
