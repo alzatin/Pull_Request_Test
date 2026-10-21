@@ -654,7 +654,24 @@
           "name": "fontSize",
           "ioValue": 1
         }
-      ]
+      ],
+      "anchors": {
+        "edge": null,
+        "start": {
+          "kind": "face",
+          "leaf": 2,
+          "index": 0
+        },
+        "end": {
+          "kind": "face",
+          "leaf": 1,
+          "index": 2
+        }
+      },
+      "anchorModes": {
+        "start": "face",
+        "end": "face"
+      }
     },
     {
       "atomType": "Circle",
