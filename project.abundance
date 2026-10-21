@@ -647,23 +647,14 @@
         },
         {
           "name": "color",
-          "ioValue": "#3F3CDD",
-          "currentEquation": "#3F3CDD"
+          "ioValue": "#dda2b5",
+          "currentEquation": "#dda2b5"
         },
         {
           "name": "fontSize",
-          "ioValue": 40
+          "ioValue": 1
         }
-      ],
-      "anchors": {
-        "edge": {
-          "kind": "edge",
-          "leaf": 2,
-          "index": 12
-        },
-        "start": null,
-        "end": null
-      }
+      ]
     },
     {
       "atomType": "Circle",
