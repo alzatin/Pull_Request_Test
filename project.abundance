@@ -732,7 +732,7 @@
         {
           "name": "startPosition",
           "ioValue": [
-            0,
+            10,
             0,
             0
           ]
@@ -756,12 +756,25 @@
         },
         {
           "name": "offset",
-          "ioValue": 6.5
+          "ioValue": 2.5
         }
       ],
+      "anchors": {
+        "edge": null,
+        "start": {
+          "kind": "vertex",
+          "leaf": 1,
+          "index": 3
+        },
+        "end": {
+          "kind": "vertex",
+          "leaf": 2,
+          "index": 5
+        }
+      },
       "anchorModes": {
-        "start": "edge",
-        "end": "face"
+        "start": "point",
+        "end": "point"
       },
       "textMode": "custom",
       "offsetAxisChoice": "y"
@@ -801,7 +814,7 @@
     {
       "atomType": "Input",
       "x": 0,
-      "y": 0.4,
+      "y": 0.2,
       "uniqueID": "id-523",
       "name": "Name",
       "options": []
