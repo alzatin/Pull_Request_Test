@@ -660,13 +660,9 @@
         "start": {
           "kind": "face",
           "leaf": 2,
-          "index": 0
+          "index": 13
         },
-        "end": {
-          "kind": "face",
-          "leaf": 1,
-          "index": 2
-        }
+        "end": null
       },
       "anchorModes": {
         "start": "face",
