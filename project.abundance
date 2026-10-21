@@ -616,8 +616,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.5,
-      "y": 0.8,
+      "x": 0.7,
+      "y": 0.7,
       "uniqueID": "id-399",
       "ioValues": [
         {
@@ -654,7 +654,16 @@
           "name": "fontSize",
           "ioValue": 40
         }
-      ]
+      ],
+      "anchors": {
+        "edge": {
+          "kind": "edge",
+          "leaf": 2,
+          "index": 12
+        },
+        "start": null,
+        "end": null
+      }
     },
     {
       "atomType": "Circle",
@@ -809,11 +818,6 @@
       "ap2ID": "id-191"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-186",
-      "ap2ID": "id-399"
-    },
-    {
       "ap2Name": "Shape4",
       "ap1ID": "id-191",
       "ap2ID": "id-52"
@@ -842,6 +846,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-52",
       "ap2ID": "id-29"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-52",
+      "ap2ID": "id-399"
     },
     {
       "ap2Name": "geometry",
