@@ -664,11 +664,7 @@
       ],
       "anchors": {
         "edge": null,
-        "start": {
-          "kind": "face",
-          "leaf": 2,
-          "index": 3
-        },
+        "start": null,
         "end": {
           "kind": "face",
           "leaf": 2,
@@ -676,7 +672,7 @@
         }
       },
       "anchorModes": {
-        "start": "face",
+        "start": "point",
         "end": "face"
       },
       "textMode": "measure",
@@ -756,7 +752,7 @@
         "start": {
           "kind": "vertex",
           "leaf": 1,
-          "index": 3
+          "index": 5
         },
         "end": {
           "kind": "vertex",
