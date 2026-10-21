@@ -623,8 +623,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.6,
-      "y": 0.7,
+      "x": 0.5,
+      "y": 0.9,
       "uniqueID": "id-399",
       "ioValues": [
         {
@@ -656,10 +656,6 @@
           "name": "color",
           "ioValue": "#b40ddb",
           "currentEquation": "#b40ddb"
-        },
-        {
-          "name": "fontSize",
-          "ioValue": 1
         },
         {
           "name": "offset",
@@ -716,8 +712,8 @@
     },
     {
       "atomType": "Label",
-      "x": 0.5,
-      "y": 0.8,
+      "x": 0.6,
+      "y": 0.9,
       "uniqueID": "id-514",
       "ioValues": [
         {
@@ -749,10 +745,6 @@
           "name": "color",
           "ioValue": "#33d635",
           "currentEquation": "#33d635"
-        },
-        {
-          "name": "fontSize",
-          "ioValue": 1
         },
         {
           "name": "offset",
@@ -943,7 +935,7 @@
     },
     {
       "ap2Name": "number or geometry",
-      "ap1ID": "id-52",
+      "ap1ID": "id-514",
       "ap2ID": "id-29"
     },
     {
