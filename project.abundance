@@ -496,8 +496,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5,
-      "y": 0.8,
+      "x": 0.4,
+      "y": 0.6,
       "uniqueID": "id-186",
       "ioValues": [
         {
@@ -615,6 +615,48 @@
       ]
     },
     {
+      "atomType": "Label",
+      "x": 0.5,
+      "y": 0.8,
+      "uniqueID": "id-399",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "label",
+          "currentEquation": "label"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#3F3CDD",
+          "currentEquation": "#3F3CDD"
+        },
+        {
+          "name": "fontSize",
+          "ioValue": 40
+        }
+      ]
+    },
+    {
       "atomType": "Circle",
       "x": 0.2,
       "y": 0.3,
@@ -716,8 +758,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.4,
-      "y": 0.5,
+      "x": 0.3,
+      "y": 0.4,
       "uniqueID": "id-68",
       "ioValues": [
         {
@@ -765,6 +807,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-186",
       "ap2ID": "id-191"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-186",
+      "ap2ID": "id-399"
     },
     {
       "ap2Name": "Shape4",
