@@ -653,21 +653,17 @@
         {
           "name": "fontSize",
           "ioValue": 1
+        },
+        {
+          "name": "offset",
+          "ioValue": 4.5
         }
       ],
-      "anchors": {
-        "edge": null,
-        "start": {
-          "kind": "face",
-          "leaf": 2,
-          "index": 13
-        },
-        "end": null
-      },
       "anchorModes": {
-        "start": "face",
+        "start": "edge",
         "end": "face"
-      }
+      },
+      "textMode": "measure"
     },
     {
       "atomType": "Circle",
