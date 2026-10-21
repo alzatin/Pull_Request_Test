@@ -4,6 +4,13 @@
   "y": 0,
   "uniqueID": "id-28",
   "name": "Pull_Request_Test",
+  "ioValues": [
+    {
+      "name": "Name",
+      "ioValue": 10,
+      "currentEquation": "mish"
+    }
+  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -616,7 +623,7 @@
     },
     {
       "atomType": "Label",
-      "x": 0.7,
+      "x": 0.6,
       "y": 0.7,
       "uniqueID": "id-399",
       "ioValues": [
@@ -647,8 +654,8 @@
         },
         {
           "name": "color",
-          "ioValue": "#dda2b5",
-          "currentEquation": "#dda2b5"
+          "ioValue": "#b40ddb",
+          "currentEquation": "#b40ddb"
         },
         {
           "name": "fontSize",
@@ -708,6 +715,58 @@
       ]
     },
     {
+      "atomType": "Label",
+      "x": 0.5,
+      "y": 0.8,
+      "uniqueID": "id-514",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "text",
+          "ioValue": "length",
+          "currentEquation": "length"
+        },
+        {
+          "name": "startPosition",
+          "ioValue": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "endPosition",
+          "ioValue": [
+            10,
+            10,
+            0
+          ]
+        },
+        {
+          "name": "color",
+          "ioValue": "#33d635",
+          "currentEquation": "#33d635"
+        },
+        {
+          "name": "fontSize",
+          "ioValue": 1
+        },
+        {
+          "name": "offset",
+          "ioValue": 6.5
+        }
+      ],
+      "anchorModes": {
+        "start": "edge",
+        "end": "face"
+      },
+      "textMode": "custom",
+      "offsetAxisChoice": "y"
+    },
+    {
       "atomType": "Assembly",
       "x": 0.9,
       "y": 0.4,
@@ -738,6 +797,14 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0,
+      "y": 0.4,
+      "uniqueID": "id-523",
+      "name": "Name",
+      "options": []
     },
     {
       "atomType": "RegularPolygon",
@@ -845,6 +912,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-31",
       "ap2ID": "id-35"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-399",
+      "ap2ID": "id-514"
     },
     {
       "ap2Name": "geometry",
